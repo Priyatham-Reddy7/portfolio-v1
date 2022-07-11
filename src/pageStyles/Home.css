@@ -39,6 +39,7 @@
 
 .prompt svg:hover{
     transform: scale(1.1);
+    color: #e9d35b;
 }
 
 .skills {
