@@ -8,15 +8,17 @@ import Footer from "./components/footer/Footer"
 
 const App = () => {
     return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/experience" element={<Experience />} />
-            </Routes>
-            <Footer />
-        </Router>
+        <div className="App">
+            <Router>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/experience" element={<Experience />} />
+                </Routes>
+                <Footer />
+            </Router>
+        </div>
     )
 }
 
