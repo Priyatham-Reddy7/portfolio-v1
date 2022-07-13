@@ -55,7 +55,7 @@ const Experience = () => {
                             Hyderabad, Telangana
                         </h4>
                         <p>
-                            Worked as React Developer for Sothern California
+                            Working as a React Developer for Sothern California
                             Edison. Delivered major enhancements for the SCE Web
                             Application.
                         </p>
