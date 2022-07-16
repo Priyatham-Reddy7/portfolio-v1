@@ -7,34 +7,40 @@ import proj6 from "../assets/proj6.png"
 
 const ProjectDetails = [
     {
-        id: 1,
+        id: 0,
         name: "Ecommerce Store",
         image: proj2,
+        skills: "ReactJS, CSS, JavaScript",
+    },
+    {
+        id: 1,
+        name: "Crypto Converter",
+        image: proj1,
+        skills: "ReactJS, CSS, JavaScript",
     },
     {
         id: 2,
-        name: "Crypto Converter",
-        image: proj1,
+        name: "Netflix clone",
+        image: proj3,
+        skills: "ReactJS, CSS, JavaScript",
     },
     {
         id: 3,
-        name: "Netflix clone",
-        image: proj3,
+        name: "Fiverr",
+        image: proj4,
+        skills: "ReactJS, CSS, JavaScript",
     },
     {
         id: 4,
-        name: "Fiverr",
-        image: proj4,
+        name: "Admin Dashboard",
+        image: proj5,
+        skills: "ReactJS, CSS, JavaScript",
     },
     {
         id: 5,
-        name: "Admin Dashboard",
-        image: proj5,
-    },
-    {
-        id: 6,
         name: "Wizards game",
         image: proj6,
+        skills: "ReactJS, CSS, JavaScript",
     },
 ]
 

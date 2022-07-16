@@ -5,6 +5,7 @@ import Projects from "./pages/Projects"
 import Experience from "./pages/Experience"
 import Navbar from "./components/navbar/Navbar"
 import Footer from "./components/footer/Footer"
+import ProjectsDisplay from "./pages/ProjectsDisplay"
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/projects" element={<Projects />} />
+                    <Route path="/projects/:id" element={<ProjectsDisplay />} />
                     <Route path="/experience" element={<Experience />} />
                 </Routes>
                 <Footer />
