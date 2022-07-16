@@ -14,9 +14,15 @@ const Home = () => {
                             Software Developer with a passion for learning and
                             creating
                         </p>
-                        <Linkedin />
-                        <Github />
-                        <Email />
+                        <a href="https://www.linkedin.com/in/priyatham-reddy147/">
+                            <Linkedin />
+                        </a>
+                        <a href="https://github.com/Priyatham-Reddy7">
+                            <Github />
+                        </a>
+                        <a href="#">
+                            <Email />
+                        </a>
                     </div>
                 </div>
                 <div className="skills">
