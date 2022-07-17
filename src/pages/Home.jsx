@@ -9,7 +9,7 @@ const Home = () => {
         <>
             <div className="home">
                 <div className="about">
-                    <h2>Hi There, myself Jaya Priyatham Reddy</h2>
+                    <h2>Hi There, Myself Jaya Priyatham Reddy</h2>
                     <div className="prompt">
                         <p>
                             Software Developer with a passion for learning and
