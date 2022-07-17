@@ -2,6 +2,7 @@ import Email from "@mui/icons-material/Email"
 import Linkedin from "@mui/icons-material/Linkedin"
 import Github from "@mui/icons-material/Github"
 import "../pageStyles/Home.css"
+import cv from "../assets/cv/cv.pdf"
 
 const Home = () => {
     return (
@@ -22,6 +23,11 @@ const Home = () => {
                         </a>
                         <a href="#">
                             <Email />
+                        </a>
+                    </div>
+                    <div className="cv">
+                        <a href={cv} download className="button">
+                            Download CV
                         </a>
                     </div>
                 </div>
