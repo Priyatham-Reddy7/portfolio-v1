@@ -21,7 +21,7 @@ const Home = () => {
                         <a href="https://github.com/Priyatham-Reddy7">
                             <Github />
                         </a>
-                        <a href="#">
+                        <a href="mailto: priyathamreddy147@gmail.com.com">
                             <Email />
                         </a>
                     </div>
