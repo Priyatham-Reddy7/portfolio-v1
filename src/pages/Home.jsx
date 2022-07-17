@@ -30,22 +30,29 @@ const Home = () => {
                     <ol className="list">
                         <li className="item">
                             <h2>Front-End</h2>
-                            <span>
-                                HTML, CSS, ReactJS, Bootstrap, MaterialUI,
-                                StyledComponents
-                            </span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>ReactJS</span>
+                            <span>Bootstrap</span>
+                            <span>MaterialUI</span>
+                            <span>StyledComponents</span>
                         </li>
                     </ol>
                     <ol className="list">
                         <li className="item">
                             <h2>Back-End</h2>
-                            <span>NodeJS, ExpressJS, MongoDB, MySQL</span>
+                            <span>NodeJS</span>
+                            <span>ExpressJS</span>
+                            <span>MongoDB</span>
+                            <span>MySQL</span>
                         </li>
                     </ol>
                     <ol className="list">
                         <li className="item">
                             <h2>Languages</h2>
-                            <span>JavaScript, Python, TypeScript</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>Python</span>
                         </li>
                     </ol>
                 </div>
